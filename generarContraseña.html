@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrador 1</title>
+</head>
+<body>
+ 
+    <header>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./generarContraseña.html">Generar contraseña</a>
+            <a href="./cajaFuerte.html">Caja fuerte</a>
+            <a href="./monitoreoDeActividad.html">Monitoreo de actividad</a>
+            <a href="./gestionDeUsuarios.html">Gestion de usuarios</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h1>Asistente de seguridad</h1>
+        <h3>Generador de contraseñas para usuarios</h3>
+
+        <form action="">
+            <div>
+                <label for="caracteresDeseados">Cantidad de caracteres deseados</label>
+                <input type="number" name="caracteresDeseados">
+            </div>
+
+            <div>
+            <label for="caracteresEpeciales">¿Incluir caracteres especiales?</label>
+            <input type="checkbox" name="caracteresEspeciales">
+        </div>
+
+        <div>
+            <label for="caracteresNumeros">¿Incluir caracteres numeros?</label>
+            <input type="checkbox" name="caracteresNumeros">
+        </div>
+
+        <div>
+            <label for="caracteresMayusculas">¿Incluir caracteres mayusculas?</label>
+            <input type="checkbox" name="caracteresMayusculas">
+        </div>
+
+        <button>Generar contraseña</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrador 1</title>
+</head>
+<body>
+  
+    <header>
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./generarContraseña.html">Generar contraseña</a>
+            <a href="./cajaFuerte.html">Caja fuerte</a>
+            <a href="./monitoreoDeActividad.html">Monitoreo de actividad</a>
+            <a href="./gestionDeUsuarios.html">Gestion de usuarios</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Asistente de seguridad</h1>
+        <h3>Sistema de monitoreo de actividad sospechosa</h3>
+
+        <form action="">
+            <div>
+                <label for="descripcion">Descripcion</label>
+                <input type="text" name="descripcion">
+                <label for="nivelRiesgo">Nivel de riesgo</label>
+                <input type="number" name="nivelRiesgo">
+                <button>Agregar actividad</button>
+            </div>
+            <div>
+                <label for="eliminarSospechosa">Eliminar actividad sospechosa</label>
+                <input type="text" name="eliminarSospechosa">
+                <button>Eliminar actividad</button>
+            </div>
+
+            <div>
+                <label for="filtrarActividadesRiesgo">Filtrar actividades por nivel de riesgo</label>
+                <input type="text" name="filtrarActividadesRiesgo">
+                <button>Mostrar actividades</button>
+            </div>
+
+            <div>
+                <label for="generarReporte">Reporte de actividades</label>
+                <input type="text" name="generarReporte">
+                <button>Generar reporte</button>
+            </div>
+
+        </form>
+
+    </main>
+    <hr>
+</body>
+</html>
